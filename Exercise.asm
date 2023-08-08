@@ -1,6 +1,8 @@
 
 // for given x print all numbers from x up to 0 which are divided by 3 without a remainder
 
+main PROC
+
 .data
 numberX dword 10
 
@@ -19,6 +21,8 @@ L1:
 
 L2:
   nop
+
+main ENDP
 
 
 
